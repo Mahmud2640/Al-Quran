@@ -17,7 +17,7 @@ function getSurahs()
             surahsContainer.innerHTML+= 
             `
                 <div>
-                    <p>${data.data[surah].name.long}</p>
+                    <p>${data.data[surah].name.short}</p>
                     <p>${data.data[surah].name.transliteration.en}</p>
                 </div>
             ` 
